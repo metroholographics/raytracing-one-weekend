@@ -1,5 +1,5 @@
 default:
-	gcc -std=c99 -o main.exe main.c
+	gcc -std=c99 -o  main.exe main.c -lm
 run:
 	.\main.exe
 
